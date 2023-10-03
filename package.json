@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vikrampandia0990.github.io/TextUtils-",
+  "homepage": "https://vikrampandia0990.github.io/text-utils",
   "name": "textutils",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "react-router-dom": "^6.16.0"
   }
 }
